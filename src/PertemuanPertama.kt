@@ -39,7 +39,17 @@
  */
 
 /*
+    4. Operasi Aritmatik
+    +
+    -
+    *
+    /
+    % -> modulus -> sisa bagi
+ */
 
+/*
+    5. User Input
+    val / var variable = readLine.toTipe_data()
  */
 
 fun main(){
