@@ -54,5 +54,39 @@
 
 fun main(){
 
+    // ini 1 line comment
+
+    /*
+        ini multiple line comment
+     */
+
+    print("Hello World") // menampilkan text Hello World Tanpa New line Setelah Hello World
+    println("Hello World") // Menampilkan Text Hello World Dengan New Line Setelah Hello World
+
+    var nama = "Rio Wirawan" // membuat deklarasi mutable variable nama yang berisi "Rio Wirawan"
+
+    println(nama) // menampilkan variable nama
+
+    nama = "Shinta Suci Ningsih" // mengisi ulang variable nama dengan "Shinta Suci Ningsih"
+
+    println(nama) // menampilkan variable nama
+
+    val bilanganPertama = 10 //deklarasi variable bilanganPertama dengan nilai 10
+    val bilanganKedua = 11 //deklarasi variable bilanganKedua dengan nilai 11
+
+    val penjumlahan = bilanganPertama + bilanganKedua //deklarasi variable penjumlahan dengan nilai bilanganPertama + bilanganKedua
+
+    println("Penjumlahan : $penjumlahan") //menampilkan hasil penjumlahan variable bilanganPertama dengan bilangankedua
+
+
+
+    print("Masukkan Bilangan Pertama : ")
+    val bilangan_pertama = readLine()!!.toInt()
+    print("Masukkan Bilangan Pertama : ")
+    val bilangan_kedua = readLine()!!.toInt()
+
+    val hasil_penjumlahan = bilangan_pertama + bilangan_kedua
+
+    println("Hasil Penjumlahan : $hasil_penjumlahan")
 
 }
