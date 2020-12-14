@@ -78,8 +78,6 @@ fun main(){
 
     println("Penjumlahan : $penjumlahan") //menampilkan hasil penjumlahan variable bilanganPertama dengan bilangankedua
 
-
-
     print("Masukkan Bilangan Pertama : ")
     val bilangan_pertama = readLine()!!.toInt()
     print("Masukkan Bilangan Pertama : ")
