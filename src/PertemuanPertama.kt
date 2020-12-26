@@ -1,4 +1,12 @@
 /*
+ * Copyright (c) 2020. Silahkan di copy paste guys
+ * Kalau ada yg mau di tanya silahkan di chat via Group WA / request di Github
+ * Sekalian follow di instagram @riowiraawan
+ */
+
+/*
+    Pertemuan Pertama (Comment, Menampilkan Text, Deklarasi Variable, Operasi Aritmatik, I/0)
+
     1. Comment
 
     a. 1 Line Comment -> //
@@ -48,11 +56,15 @@
  */
 
 /*
-    5. User Input
+    5. I/O (User Input)
     val / var variable = readLine.toTipe_data()
  */
 
 fun main(){
+
+    /*
+        Cth Comment
+     */
 
     // ini 1 line comment
 
@@ -60,8 +72,16 @@ fun main(){
         ini multiple line comment
      */
 
+    /*
+        Cth Menampilkan Text
+     */
+
     print("Hello World") // menampilkan text Hello World Tanpa New line Setelah Hello World
     println("Hello World") // Menampilkan Text Hello World Dengan New Line Setelah Hello World
+
+    /*
+        Cth Deklarasi Variable
+     */
 
     var nama = "Rio Wirawan" // membuat deklarasi mutable variable nama yang berisi "Rio Wirawan"
 
@@ -71,12 +91,20 @@ fun main(){
 
     println(nama) // menampilkan variable nama
 
+    /*
+        Cth Operasi Aritmatik Sedernaha
+     */
+
     val bilanganPertama = 10 //deklarasi variable bilanganPertama dengan nilai 10
     val bilanganKedua = 11 //deklarasi variable bilanganKedua dengan nilai 11
 
     val penjumlahan = bilanganPertama + bilanganKedua //deklarasi variable penjumlahan dengan nilai bilanganPertama + bilanganKedua
 
     println("Penjumlahan : $penjumlahan") //menampilkan hasil penjumlahan variable bilanganPertama dengan bilangankedua
+
+    /*
+        Cth I/O (User Input)
+     */
 
     print("Masukkan Bilangan Pertama : ")
     val bilangan_pertama = readLine()!!.toInt()
@@ -88,3 +116,24 @@ fun main(){
     println("Hasil Penjumlahan : $hasil_penjumlahan")
 
 }
+
+/******************************************
+ *
+ *  Latihan
+ *
+ *  1. Buat Program Pengurangan, Perkalian, Pembagian
+ *
+ *      NB : Hasil Pembagian Dalam Bilangan Berkoma
+ *
+ *
+ *  2. Buat Program Converter Suhu Dari Celcius Ke Fahrenheit
+ *
+ *      cth :
+ *      Masukkan Suhu Celcius : 32
+ *      Suhu Fahreneheit : 89.6
+ *
+ *      NB :
+ *      Dimana 32 menggunakan I/O
+ *      Suhu Fahreneheit : 89.6 Adalah Outputnya
+ *
+ */
