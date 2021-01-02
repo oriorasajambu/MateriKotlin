@@ -1,6 +1,6 @@
 # Materi Bahasa Pemograman Kotlin
 
-### Pertemuan Pertama
+### [Pertemuan Pertama](src/pertemuan1/README.md)
 - Comment
 - Menampilkan Text (Output)
 - Deklarasi Variable
