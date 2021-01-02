@@ -1,8 +1,10 @@
 /*
- * Copyright (c) 2020. Silahkan di copy paste guys
+ * Copyright (c) 2021. Silahkan di copy paste guys
  * Kalau ada yg mau di tanya silahkan di chat via Group WA / request di Github
  * Sekalian follow di instagram @riowiraawan
  */
+
+package pertemuankeempat
 
 /*
     Pertemuan Keempat (Function)
@@ -82,7 +84,7 @@
 
  */
 
-//function dapat dibuat diluar fucntion main
+//function dapat dibuat diluar fucntion pertemuanpertama.pertemuankedua.main
 fun menampilkanHello (){
     println("Hello World")
 }
@@ -96,7 +98,7 @@ fun main(){
     menampilkanHello()
     menampilkanHello2("Rio")
 
-    //function juga dapat di buat di dalam function main
+    //function juga dapat di buat di dalam function pertemuanpertama.pertemuankedua.main
     fun penjumlahan(bilanganPertama : Int, bilanganKedua : Int) {
         println("Penjumlahan : ${bilanganPertama+bilanganKedua}")
     }

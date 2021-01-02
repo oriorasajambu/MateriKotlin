@@ -1,15 +1,14 @@
 /*
- * Copyright (c) 2020. Silahkan di copy paste guys
+ * Copyright (c) 2021. Silahkan di copy paste guys
  * Kalau ada yg mau di tanya silahkan di chat via Group WA / request di Github
  * Sekalian follow di instagram @riowiraawan
  */
 
 /*
     Pertemuan Keenam (Inheritance)
-
-
-
  */
+
+package pertemuanketujuh
 
 open class TransportasiDarat (val platNomor : String? = null, val merk : String? = null) : DriverOnSeat{
     override fun onStart() {

@@ -1,8 +1,10 @@
 /*
- * Copyright (c) 2020. Silahkan di copy paste guys
+ * Copyright (c) 2021. Silahkan di copy paste guys
  * Kalau ada yg mau di tanya silahkan di chat via Group WA / request di Github
  * Sekalian follow di instagram @riowiraawan
  */
+
+package pertemuanpertama
 
 /*
     Pertemuan Pertama (Comment, Menampilkan Text, Deklarasi Variable, Operasi Aritmatik, I/0)
