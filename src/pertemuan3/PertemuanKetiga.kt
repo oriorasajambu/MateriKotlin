@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan3
-
 /*
     Pertemuan Ketiga (Struktur Perulangan / Looping)
 
@@ -84,6 +82,8 @@ package pertemuan3
         println(bilangan++)
     } while(bilangan <= 10)
  */
+
+package pertemuan3
 
 fun main(){
 

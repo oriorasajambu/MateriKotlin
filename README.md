@@ -28,7 +28,7 @@
 ### [Pertemuan Kelima](src/pertemuan5)
 - Collections
 - ***mutableListOf<>()***
-- build in function
+- Build in function
 
 ### [Pertemuan Keenam](src/pertemuan6)
 - OOP

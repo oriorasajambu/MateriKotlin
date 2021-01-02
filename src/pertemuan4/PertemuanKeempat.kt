@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan4
-
 /*
     Pertemuan Keempat (Function)
 
@@ -83,6 +81,8 @@ package pertemuan4
     Output : 21
 
  */
+
+package pertemuan4
 
 //function dapat dibuat diluar fucntion pertemuanpertama.pertemuankedua.main
 fun menampilkanHello (){

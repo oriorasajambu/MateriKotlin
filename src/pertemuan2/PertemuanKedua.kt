@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan2
-
 /*
     Pertemuan Kedua (Struktur Keputusan, if dan when)
 
@@ -92,6 +90,8 @@ package pertemuan2
         }
     }
  */
+
+package pertemuan2
 
 fun main(){
 

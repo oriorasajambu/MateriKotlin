@@ -129,3 +129,4 @@ when {
     else -> statement default
 }
 ```
+Untuk Dokumentasi lebih lengkap dapat di cek [disini](https://kotlinlang.org/docs/reference/control-flow.html#when-expression)

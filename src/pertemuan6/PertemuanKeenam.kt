@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan6
-
 /*
     Pertemuan Keenam (Class)
 
@@ -19,6 +17,8 @@ package pertemuan6
 
     }
  */
+
+package pertemuan6
 
 class Mobil {
     var merkMobil: String? = null

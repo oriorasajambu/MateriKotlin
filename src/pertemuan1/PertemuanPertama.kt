@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan1
-
 /*
     Pertemuan Pertama (Comment, Menampilkan Text, Deklarasi Variable, Operasi Aritmatik, I/0)
 
@@ -61,6 +59,8 @@ package pertemuan1
     5. I/O (User Input)
     val / var variable = readLine.toTipe_data()
  */
+
+package pertemuan1
 
 fun main(){
 

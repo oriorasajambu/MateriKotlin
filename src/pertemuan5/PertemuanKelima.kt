@@ -4,8 +4,6 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuan5
-
 /*
     Pertemuan Kelima (Collection / List)
 
@@ -29,6 +27,8 @@ package pertemuan5
     .sum()                  -> menjumlahkan semua data yg ada dilist NB : hanya untuk tipe data Int / Double / Float dll
     dst
  */
+
+package pertemuan5
 
 fun main(){
 
