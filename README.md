@@ -7,17 +7,17 @@
 - Operator
 - I/O (Input / Output)
 
-### Pertemuan Kedua
+### [Pertemuan Kedua](src/pertemuan2)
 - Operator
 - Struktur Keputusan ***if***
 - Struktur Keputusan ***when***
 
-### Pertemuan Ketiga
+### [Pertemuan Ketiga](src/pertemuan3)
 - Struktur Perulangan ***for***
 - Struktur Perulangan ***while***
 - Struktur Perulangan ***do while***
 
-### Pertemuan Keempat
+### [Pertemuan Keempat](src/pertemuan4)
 - Function
     - Tanpa Pengembalian Nilai
     - Dengan Pengembalian Nilai
@@ -25,12 +25,12 @@
 - Function Extension
 - Abstract Function
 
-### Pertemuan Kelima
+### [Pertemuan Kelima](src/pertemuan5)
 - Collections
 - ***mutableListOf<>()***
 - build in function
 
-### Pertemuan Keenam
+### [Pertemuan Keenam](src/pertemuan6)
 - OOP
 - Attribute
 - Method
@@ -38,7 +38,7 @@
 - Primary Constructor
 - ***data class***
 
-### Pertemuan Ketujuh
+### [Pertemuan Ketujuh](src/pertemuan7)
 - Inheritance
 - Overriding Method
 - ***sealed class***
