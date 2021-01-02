@@ -36,10 +36,11 @@
 - Method
 - Secondary Constructor
 - Primary Constructor
-- ***data class***
+- Null Safety
 
 ### [Pertemuan Ketujuh](src/pertemuan7)
 - Inheritance
 - Overriding Method
+- ***data class***
 - ***sealed class***
 - ***abstract class***

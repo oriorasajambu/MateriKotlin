@@ -129,7 +129,7 @@ Terdapat banyak simbol (***operator***) yang dapat digunakan didalam bahasa pemo
 - ***Operator Perbandingan***
 - ***Operator Logic***
 
-Operator Perbandingan dan Operator Logic dibahas pada Pertemuan Kedua.
+Operator Perbandingan dan Operator Logic dibahas pada [Pertemuan Kedua](../pertemuan2).
 
 Operator Assignment berfungsi untuk mengisi data kedalam sebuah variable, symbol yang digunakan adalah ***=***.
 Simbol Operator Aritmatik terdiri dari ***+***, ***-***, *, ***/***, ***%***. 
@@ -164,7 +164,7 @@ Untuk Melakukan proses input kita dapat menggunakan syntax berikut ini
 readLine()!!.toInt()
 ```
 **readLine()** digunakan untuk membaca data yang dimasukkan (***Input***), Simbol **!!** adalah ***null safety*** yang akan dibahas
-lebih lanjut di Pertemuan Keenam, **.toInt()** mengkonversi (**Convert***) data menjadi tipe data Int (***Integer*** / ***Bilangan Bulat***).
+lebih lanjut di [Pertemuan Keenam](../pertemuan6), **.toInt()** mengkonversi (**Convert***) data menjadi tipe data Int (***Integer*** / ***Bilangan Bulat***).
 
 Data yang di***input*** dapat di tampung di dalam variable
 ```kotlin
