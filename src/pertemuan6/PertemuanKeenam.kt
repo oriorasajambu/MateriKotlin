@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuankeenam
+package pertemuan6
 
 /*
     Pertemuan Keenam (Class)

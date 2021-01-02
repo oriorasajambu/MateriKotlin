@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuankedua
+package pertemuan2
 
 /*
     Pertemuan Kedua (Struktur Keputusan, if dan when)

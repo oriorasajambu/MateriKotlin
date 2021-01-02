@@ -8,7 +8,7 @@
     Pertemuan Keenam (Inheritance)
  */
 
-package pertemuanketujuh
+package pertemuan7
 
 open class TransportasiDarat (val platNomor : String? = null, val merk : String? = null) : DriverOnSeat{
     override fun onStart() {

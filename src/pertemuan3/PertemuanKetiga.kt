@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuanketiga
+package pertemuan3
 
 /*
     Pertemuan Ketiga (Struktur Perulangan / Looping)

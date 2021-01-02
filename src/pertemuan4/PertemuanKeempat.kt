@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuankeempat
+package pertemuan4
 
 /*
     Pertemuan Keempat (Function)

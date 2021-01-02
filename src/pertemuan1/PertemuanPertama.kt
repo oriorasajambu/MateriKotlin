@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuanpertama
+package pertemuan1
 
 /*
     Pertemuan Pertama (Comment, Menampilkan Text, Deklarasi Variable, Operasi Aritmatik, I/0)

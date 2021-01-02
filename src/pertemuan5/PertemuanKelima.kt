@@ -4,7 +4,7 @@
  * Sekalian follow di instagram @riowiraawan
  */
 
-package pertemuankelima
+package pertemuan5
 
 /*
     Pertemuan Kelima (Collection / List)
