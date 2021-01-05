@@ -21,6 +21,7 @@
 - Function
     - Tanpa Pengembalian Nilai
     - Dengan Pengembalian Nilai
+- Higher Order Function
 - Function Inline
 - Function Extension
 - Abstract Function

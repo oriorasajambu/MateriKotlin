@@ -94,25 +94,27 @@ fun menampilkanHello2 (nama: String) {
 }
 
 fun main(){
-    //pemanggilan function
-    menampilkanHello()
-    menampilkanHello2("Rio")
+//    //pemanggilan function
+//    menampilkanHello()
+//    menampilkanHello2("Rio")
+//
+//    //function juga dapat di buat di dalam function pertemuanpertama.pertemuankedua.main
+//    fun penjumlahan(bilanganPertama : Int, bilanganKedua : Int) {
+//        println("Penjumlahan : ${bilanganPertama+bilanganKedua}")
+//    }
+//
+//    penjumlahan(10, 11)
+//
+//    println(menampilkanHellow())
+//
+//    //hasil dari fucntion dapat disimpan di dalam variable
+//    val text = menampilkanHellow2("Rio")
+//    println(text)
+//
+//    val penjumlahan = penjumlahan2(10, 11)
+//    println(penjumlahan)
 
-    //function juga dapat di buat di dalam function pertemuanpertama.pertemuankedua.main
-    fun penjumlahan(bilanganPertama : Int, bilanganKedua : Int) {
-        println("Penjumlahan : ${bilanganPertama+bilanganKedua}")
-    }
-
-    penjumlahan(10, 11)
-
-    println(menampilkanHellow())
-
-    //hasil dari fucntion dapat disimpan di dalam variable
-    val text = menampilkanHellow2("Rio")
-    println(text)
-
-    val penjumlahan = penjumlahan2(10, 11)
-    println(penjumlahan)
+    penjumlahan(10, 11, output)
 }
 
 fun menampilkanHellow () : String = "Hello World"
@@ -123,3 +125,9 @@ fun menampilkanHellow2 (nama: String) = "Hello $nama"
 
 fun penjumlahan2(bilanganPertama: Int, bilanganKedua: Int) = (bilanganPertama+bilanganKedua).toString()
 
+val output = { outputValue : Int -> println(outputValue) }
+
+fun penjumlahan (x : Int, y : Int, output : (Int) -> Unit ){
+    val hasil = x + y
+    output(hasil)
+}
