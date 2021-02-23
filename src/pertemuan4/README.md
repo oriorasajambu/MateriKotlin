@@ -156,7 +156,7 @@ hello(output)
 ### - Function Extension
 
 Function Extension berfungsi untuk menambahkan / menciptakan function baru dari 
-tipe data / ***class*** yang tersedia / dibuat, tanpa memodifikasi / perubahan pada tipe data / ***clas***
+tipe data / ***class*** yang tersedia / dibuat, tanpa memodifikasi / perubahan pada tipe data / ***class***
 tersebut
 
 ```kotlin
@@ -171,3 +171,29 @@ nama.output(umur)
 ```
 
 ### - Abstract Function
+
+Abstract Function berfungsi untuk menambahkan / menciptakan function baru, dengan body / isi function yang tidak harus di buat
+dengan tujuan untuk mengimplementasikan body / isi yang berbeda pada masing masing class dengan cara membungkus function didalam 
+interface
+
+```kotlin
+interface ContohInterface {
+    fun contohFunction(variable: String)
+    fun contohFunction2 (variable1: String, variable2: String) {
+        println("$variable1 ini adalah variable pertama")
+        println("$variable2 ini adalah variable kedua")
+    }
+}
+
+class ContohClass : ContohInterface {
+    override contohFunction(variable: String){
+        println("Disini Kita Dapat Memanggil Parameter = $variable")
+    }
+}
+
+fun main(){
+    val objek = ContohClass()
+    
+    objek.contohFunction("Ini Parameter")
+}
+```
