@@ -1,13 +1,14 @@
 # Pertemuan Pertama
 
 Materi :
-- Comment
-- Menampilkan Text (Output)
-- Deklarasi Variable
-- Operator
-- I/O (Input/Output)
+* [Comment](#comment)
+* [Menampilkan Text (Output)](#menampilkan-text-output)
+* [Deklarasi Variable](#deklarasi-variable)
+* [Operator](#operator)
+* [I/O (Input/Output)](#io-input--output)
 
-## - Comment
+Comment
+======================
 
 Comment adalah ***catatan***, dimana membuat comment (catatan) tidak mempengaruhi syntax (coding) yang kita buat.
 Comment tidak akan di compile (dibuat dalam bentuk program). Comment berfungsi untuk menjelaskan syntax yang kita buat.
@@ -44,7 +45,8 @@ Dokumentasi lengkap dapat di temukan [disini](https://kotlinlang.org/docs/refere
  */
 ```
 
-## - Menampilkan Text (Output)
+Menampilkan Text (Output)
+======================
 
 Kita dapat menampilkan text (***Output***) di bahasa pemograman koltin dengan 2 cara :
 
@@ -71,7 +73,9 @@ println("Sudah sarapan belum?")
  */
 ```
 
-## - Deklarasi Variable
+Deklarasi Variable
+======================
+
 Deklarasi Variable adalah proses pembuatan wadah (variable) untuk menampung data, yang dapat digunakan (dipanggil / called) 
 sewaktu waktu. Variable dibagi menjadi 2 jenis, ***mutable*** dan ***immutable***, dimana ***mutable*** adalah varible yang dapat berubah nilainya dan ***immutable***
 variable yang tidak dapat berubah nilainya.
@@ -120,7 +124,8 @@ dan maximum
 
 Dokumentasi lanjut dapat dilihat [disini](https://kotlinlang.org/docs/reference/basic-types.html)
 
-## - Operator
+Operator
+======================
 
 Terdapat banyak simbol (***operator***) yang dapat digunakan didalam bahasa pemograman diantaranya :
 
@@ -158,7 +163,9 @@ val x = 10 % 3
 print(x) //output : 1
 ```
 
-## - I/O (Input / Output)
+I/O (Input / Output)
+======================
+
 Untuk Melakukan proses input kita dapat menggunakan syntax berikut ini
 ```kotlin
 readLine()!!.toInt()
