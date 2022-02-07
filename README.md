@@ -1,47 +1,48 @@
 # Materi Bahasa Pemograman Kotlin
 
-### [Pertemuan Pertama](src/pertemuan1)
-- Comment
-- Menampilkan Text (Output)
-- Deklarasi Variable
-- Operator
-- I/O (Input / Output)
+### [Pertemuan Pertama](src/pertemuan1/README.md#pertemuan-pertama)
+- [Comment](src/pertemuan1/README.md#comment)
+- [Menampilkan Text (Output)](src/pertemuan1/README.md#menampilkan-text-output)
+- [Deklarasi Variable](src/pertemuan1/README.md#deklarasi-variable)
+- [Operator](src/pertemuan1/README.md#operator)
+- [I/O (Input / Output)](src/pertemuan1/README.md#io-input--output)
 
-### [Pertemuan Kedua](src/pertemuan2)
-- Operator
-- Struktur Keputusan ***if***
-- Struktur Keputusan ***when***
+### [Pertemuan Kedua](src/pertemuan2/README.md#pertemuan-kedua)
+- [Operator](src/pertemuan2/README.md#operator)
+- [Struktur Keputusan](src/pertemuan2/README.md#struktur-keputusan)
+  - [***if***](src/pertemuan2/README.md#struktur-keputusan-if)
+  - [***when***](src/pertemuan2/README.md#struktur-keputusan-when)
 
-### [Pertemuan Ketiga](src/pertemuan3)
-- Struktur Perulangan ***for***
-- Struktur Perulangan ***while***
-- Struktur Perulangan ***do while***
+### [Pertemuan Ketiga](src/pertemuan3/README.md#pertemuan-ketiga)
+- [Struktur Perulangan ***for***](src/pertemuan3/README.md#struktur-perulangan-for)
+- [Struktur Perulangan ***while***](src/pertemuan3/README.md#struktur-perulangan-while)
+- [Struktur Perulangan ***do while***](src/pertemuan3/README.md#struktur-perulangan-do-while)
 
-### [Pertemuan Keempat](src/pertemuan4)
-- Function
-    - Tanpa Pengembalian Nilai
-    - Dengan Pengembalian Nilai
-- Higher Order Function
-- Function Inline
-- Function Extension
-- Abstract Function
+### [Pertemuan Keempat](src/pertemuan4/README.md#pertemuan-keempat)
+- [Function](src/pertemuan4/README.md#function)
+  - [Tanpa Pengembalian Nilai](src/pertemuan4/README.md#function-tanpa-pengembalian-nilai)
+  - [Dengan Pengembalian Nilai](src/pertemuan4/README.md#function-dengan-pengembalian-nilai)
+- [Higher Order Function](src/pertemuan4/README.md#higher-order-function)
+- [Function Inline](src/pertemuan4/README.md#function-inline)
+- [Function Extension](src/pertemuan4/README.md#function-extension)
+- [Abstract Function](src/pertemuan4/README.md#abstract-function)
 
-### [Pertemuan Kelima](src/pertemuan5)
-- Collections
-- ***mutableListOf<>()***
-- Build in function
+### [Pertemuan Kelima](src/pertemuan5/README.md#pertemuan-kelima)
+- [Collections](src/pertemuan5/README.md#collections)
+- [***mutableListOf<>()***](src/pertemuan5/README.md#mutablelistof)
+- [Build in function](src/pertemuan5/README.md#build-in-function)
 
-### [Pertemuan Keenam](src/pertemuan6)
-- OOP
-- Attribute
-- Method
-- Secondary Constructor
-- Primary Constructor
-- Null Safety
+### [Pertemuan Keenam](src/pertemuan6/README.md#pertemuan-keenam)
+- [OOP](src/pertemuan6/README.md#oop)
+- [Attribute](src/pertemuan6/README.md#attribute)
+- [Method](src/pertemuan6/README.md#method)
+- [Secondary Constructor](src/pertemuan6/README.md#secondary-constructor)
+- [Primary Constructor](src/pertemuan6/README.md#primary-constructor)
+- [Null Safety](src/pertemuan6/README.md#null-safety)
 
-### [Pertemuan Ketujuh](src/pertemuan7)
-- Inheritance
-- Overriding Method
-- ***data class***
-- ***sealed class***
-- ***abstract class***
+### [Pertemuan Ketujuh](src/pertemuan7/README.md#pertemuan-ketujuh)
+- [Inheritance](src/pertemuan7/README.md#inheritance)
+- [Overriding Method](src/pertemuan7/README.md#overriding-method)
+- [***data class***](src/pertemuan7/README.md#data-class)
+- [***sealed class***](src/pertemuan7/README.md#sealed-class)
+- [***abstract class***](src/pertemuan7/README.md#abstract-class)

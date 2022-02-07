@@ -1,11 +1,12 @@
 # Pertemuan Ketiga
 
 Materi :
-- Struktur Perulangan ***for***
-- Struktur Perulangan ***while***
-- Struktur Perulangan ***do while***
+- [Struktur Perulangan ***for***](#struktur-perulangan-for)
+- [Struktur Perulangan ***while***](#struktur-perulangan-while)
+- [Struktur Perulangan ***do while***](#struktur-perulangan-do-while)
 
-## - Struktur Perulangan ***for***
+Struktur Perulangan ***for***
+======================
 
 Struktur Perulangan ***for*** membutuhkan 2 - 3 ***paramater***, variable, range, interval (opsional)
 ```kotlin
@@ -75,7 +76,8 @@ for (x in 1 .. 10 step 2) {
 //output : 13579
 ```
 
-## - Struktur Perulangan ***while***
+Struktur Perulangan ***while***
+======================
 
 Parameter Struktur Perulangan ***while*** berisikan kondisi, jika kondisi bernilai ***true***
 maka perulangan dijalankan hingga kondisi bernilai false
@@ -96,7 +98,8 @@ while(x <= 5){
 //output : 12345
 ```
 
-## - Struktur Perulangan ***do while***
+Struktur Perulangan ***do while***
+======================
 
 Struktur Perulangan ***do while*** adalah struktur perulangan yang ***minimal*** di jalan kan 1 kali
 , walaupun kondisi yang di jalankan bernilai ***false***. Jika kondisi bernilai ***true*** perulangan dijalankan

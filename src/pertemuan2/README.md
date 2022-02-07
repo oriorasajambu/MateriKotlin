@@ -1,11 +1,13 @@
 # Pertemuan Kedua
 
 Materi :
-- Operator
-- Struktur Keputusan ***if***
-- Struktur Keputusan ***when***
+- [Operator](#operator)
+- [Struktur Keputusan](#struktur-keputusan)
+    - [***if***](#struktur-keputusan-if)
+    - [***when***](#struktur-keputusan-when)
 
-## - Operator
+Operator
+======================
 
 - ***Operator Assignment***
 - ***Operator Aritmatik***
@@ -49,10 +51,14 @@ untuk menggabungkan 2 atau lebih kondisi menjadi 1 kondisi.
 | false     | true      | true  |
 | false     | false     | false |
 
-## - Struktur Keputusan ***if***
+Struktur Keputusan
+======================
 
 Struktur Keputusan berfungsi untuk memilih / mengontrol proses eliminasi di dalam program.
 Lebih lengkap dapat anda baca [disini](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
+
+Struktur Keputusan ***if***
+======================
 
 Untuk membuat sebuah Struktur Keputusan anda dapat menggunakan struktur syntax dibawah ini
 ```kotlin
@@ -110,7 +116,8 @@ else {
 //output : 10 = 10
 ```
 
-# - Struktur Keputusan ***when***
+Struktur Keputusan ***when***
+======================
 
 Struktur Keputusan ***when*** merupakan alternatif dari Struktur Keputusan ***if***.
 ```kotlin

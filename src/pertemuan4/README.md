@@ -1,21 +1,22 @@
 # Pertemuan Keempat
 
 Materi :
-- Function
-    - Tanpa Pengembalian Nilai
-    - Dengan Pengembalian Nilai
-- Lambda
-- Higher Order Function
-- Function Inline
-- Function Extension
-- Abstract Function
+- [Function](#function)
+  - [Tanpa Pengembalian Nilai](#function-tanpa-pengembalian-nilai)
+  - [Dengan Pengembalian Nilai](#function-dengan-pengembalian-nilai)
+- [Lambda](#lambda)
+- [Higher Order Function](#higher-order-function)
+- [Function Inline](#function-inline)
+- [Function Extension](#function-extension)
+- [Abstract Function](#abstract-function)
 
-### - Function
+Function
+======================
 
 Function berfungsi untuk memisahkan syntax menjadi bagian tertentu. Function memiliki komponen - komponen seperti
 ***nama function***, ***parameter*** (opsional), dan ***tipe pengembalian*** (opsional).
 
-1. Function Tanpa Pengembalian Nilai
+### Function Tanpa Pengembalian Nilai
 ```kotlin
 fun nama_function (parameter) {
     statement
@@ -44,7 +45,7 @@ hello2 ("Rio") //output : Hello Rio
 hello3 ("Rio", "Medan") //output : Hello Rio, Alamat : Medan
 ```
 
-2. Function Dengan Pengembalian Nilai
+### Function Dengan Pengembalian Nilai
 
 Mirip dengan Function Tanpa Pengembalian Nilai dimana perbedaannya 
 Function Dengan Pengembalian Nilai mempunyai ***tipe data*** 
@@ -107,7 +108,8 @@ print( pembagian(10.0, 2.0) )
 
 ***null safety*** akan dibahas lebih lanjut di [Pertemuan Keenam](../pertemuan6)
 
-### - Lambda
+Lambda
+======================
 
 Lambda adalah ***anonymous function***, yang artinya function ini tidak memiliki nama function
 ```kotlin
@@ -120,7 +122,8 @@ val multiplyWithTwo = { x : Int, y : Int -> x * y }
 print( multiply(10, 2) ) //output : 20
 ```
 
-### - Higher Order Function
+Higher Order Function
+======================
 
 Higher Order Function adalah function yang menerima function sebagai parameter, mengembalikan function, 
 atau kedua hal tersebut
@@ -137,7 +140,8 @@ penjumlahan(10, 11, output)
 //output : 21
 ```
 
-### - Function Inline
+Function Inline
+======================
 
 Inline Function di deklarasi dengan menggunakan keyword ***inline*** sebelun ***fun***.
 Inline Function berfungsi untuk mengoptimasi ***Performa Higher Order Function***, dengan cara
@@ -153,7 +157,8 @@ inline fun hello(output : () -> Unit){
 hello(output)
 ```
 
-### - Function Extension
+Function Extension
+======================
 
 Function Extension berfungsi untuk menambahkan / menciptakan function baru dari 
 tipe data / ***class*** yang tersedia / dibuat, tanpa memodifikasi / perubahan pada tipe data / ***class***
@@ -170,7 +175,8 @@ nama.output(umur)
 //output : Nama : Rio Wirawan, Umur : 27
 ```
 
-### - Abstract Function
+Abstract Function
+======================
 
 Abstract Function berfungsi untuk menambahkan / menciptakan function baru, dengan body / isi function yang tidak harus di buat
 dengan tujuan untuk mengimplementasikan body / isi yang berbeda pada masing masing class dengan cara membungkus function didalam 
